@@ -139,7 +139,7 @@ next_lvl_screen = MessageSprite("images/Next_level.png", 250, 100)
 def level_1():
     global player, main_treasure, walls, zombies, fake_treasures, traps
 
-    player = Player("images/JK_P_Sword__Idle_008.png", 600, 450, 5)
+    player = Player("images/JK_P_Sword__Idle_008.png", 10, 390, 5)
     main_treasure = GameSprite("images/treasures.png", 550, 450, 0)
 
     walls = [WallV(450, 250), WallV(450, 400), WallV(450, 400), WallV(150, 50),
